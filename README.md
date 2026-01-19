@@ -46,7 +46,13 @@ This project is well-suited for Flutter beginners.
 - Material Design
 
 ---
-
+## 📌Step	What happens
+- 1	App generates a lottery number (1–9)
+- 2	User presses Refresh button
+- 3	App generates another random number
+- 4	If it matches → user wins
+- 5	If not → user loses 
+---
 ## 🚀 How to Run the App
 
 1. Clone the repository
