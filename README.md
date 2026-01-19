@@ -1,16 +1,68 @@
-# lottery
+# Lottery App (Flutter)
 
-A new Flutter project.
+A simple Flutter application that simulates a lottery system using random number generation and real-time UI updates.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📌 Purpose of the App
 
-A few resources to get you started if this is your first Flutter project:
+The purpose of this application is to practice and demonstrate:
+- Stateful widget usage in Flutter
+- Random number generation using Dart
+- Conditional UI rendering based on logic
+- User interaction using Floating Action Button
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+This project is well-suited for Flutter beginners.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## ✨ Features Used
+
+- **StatefulWidget**
+  - Dynamic UI updates using `setState()`
+- **Random Number Generation**
+  - Implemented using Dart's `Random()` class
+- **Material UI Components**
+  - `Scaffold`
+  - `AppBar`
+  - `Container`
+  - `Text`
+  - `Icon`
+  - `FloatingActionButton`
+- **Conditional Rendering**
+  - Success and failure messages with icons
+- **Material 3**
+  - Enabled using `useMaterial3: true`
+- **Custom UI Styling**
+  - Rounded corners
+  - Custom colors and typography
+
+---
+
+## 🛠️ Technologies Used
+
+- Flutter
+- Dart
+- Material Design
+
+---
+
+## 🚀 How to Run the App
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/your-username/lottery-app.git
+   
+Navigate to the project directory
+``` bash
+cd lottery-app
+```
+- Install dependencies
+```bash
+flutter pub get
+```
+Run the app
+```bash
+flutter run
+```
+---
